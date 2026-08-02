@@ -4,17 +4,36 @@
 #include<sstream>
 #include "Renderer.h"
 using namespace std;
-void renderer::titleScreen()
+
+
+
+void Renderer::drawCentered(const std::string logo)
 {
-    vector<string> lines;
     istringstream ss(logo);
     string ln;
-    size_t max_ln=0;
-
-    while(getline(ss,ln)){
-      lines.emplace_back(ln);
-      max_ln=max(max_ln,ln.size());
-
+   while (getline(ss,ln))
+   {
+    for(int i=0;i<(75-62)/2;i++){
+        cout<<" ";
     }
-    cout<<max_ln;
+    cout<<ln<<"\n";
+    
+   }
+}
+char Renderer::inputTitle()
+{
+    char c=cin.get();
+    while(true)
+    {
+        if(c=='\n'){return 'e';}
+        else if(c=='q'||c=='Q'){return 'q';}
+    }
+}
+void Renderer::titleScreen()
+{
+ drawCentered(logo);
+ if(inputTitle()=='e'){system("clear");cout<<"it works!";}
+  if(inputTitle()=='q'){system("clear");cout<<"it works! but with q";}
+
+
 }

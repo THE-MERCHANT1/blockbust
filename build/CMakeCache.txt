@@ -220,15 +220,6 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Project_BINARY_DIR:STATIC=/Users/mac/Documents/Projects/blockbust/blockbust/build
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/Users/mac/Documents/Projects/blockbust/blockbust
-
-//Value Computed by CMake
 blockbust_BINARY_DIR:STATIC=/Users/mac/Documents/Projects/blockbust/blockbust/build
 
 //Value Computed by CMake

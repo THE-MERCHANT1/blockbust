@@ -12,4 +12,4 @@ add_executable(blockbust
     src/Game.cpp
 )
 
-target_include_directories(blockbust PRIVATE include)
+target_include_directories(blockbust PRIVATE headers)

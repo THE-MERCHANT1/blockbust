@@ -1,5 +1,5 @@
-CMakeFiles/blockbust.dir/src/main.cpp.o: \
-  /Users/mac/Documents/Projects/blockbust/blockbust/src/main.cpp \
+CMakeFiles/blockbust.dir/src/Renderer.cpp.o: \
+  /Users/mac/Documents/Projects/blockbust/blockbust/src/Renderer.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -812,4 +812,5 @@ CMakeFiles/blockbust.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/Renderer.h

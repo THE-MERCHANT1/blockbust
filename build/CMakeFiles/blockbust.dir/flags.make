@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/mac/Documents/Projects/blockbust/blockbust/include
+CXX_INCLUDES = -I/Users/mac/Documents/Projects/blockbust/blockbust/headers
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 
