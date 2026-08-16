@@ -19,10 +19,10 @@ class Renderer
 ==============================================================
 
                    Press ENTER to Start
-                     Press Q to Quit
+                     Press ^C to Quit
                      )";
     void titleScreen();
     void board();
-    void lose();
+    void loss();
    
 };
