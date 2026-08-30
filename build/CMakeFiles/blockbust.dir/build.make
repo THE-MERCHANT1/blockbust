@@ -143,6 +143,8 @@ blockbust: CMakeFiles/blockbust.dir/src/Renderer.cpp.o
 blockbust: CMakeFiles/blockbust.dir/src/Board.cpp.o
 blockbust: CMakeFiles/blockbust.dir/src/Game.cpp.o
 blockbust: CMakeFiles/blockbust.dir/build.make
+blockbust: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurses.tbd
+blockbust: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libform.tbd
 blockbust: CMakeFiles/blockbust.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mac/Documents/Projects/blockbust/blockbust/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable blockbust"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blockbust.dir/link.txt --verbose=$(VERBOSE)
