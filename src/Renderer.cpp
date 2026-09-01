@@ -26,7 +26,7 @@ char Renderer::inputTitle()
     while(true)
     {
         if(c=='\n'){return 'e';}
-        else if(c=='q'||c=='Q'){return 'q';}
+    
     }
 }
 void Renderer::titleScreen()

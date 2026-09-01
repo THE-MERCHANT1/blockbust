@@ -1,5 +1,5 @@
-CMakeFiles/blockbust.dir/src/Game.cpp.o: \
-  /Users/mac/Documents/Projects/blockbust/blockbust/src/Game.cpp \
+CMakeFiles/blockbust.dir/src/Piece.cpp.o: \
+  /Users/mac/Documents/Projects/blockbust/blockbust/src/Piece.cpp \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -813,6 +813,4 @@ CMakeFiles/blockbust.dir/src/Game.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Game.h \
-  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Board.h \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/Piece.h
