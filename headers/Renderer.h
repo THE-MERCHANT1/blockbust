@@ -3,26 +3,32 @@ class Renderer
 {   
     private:
     void drawCentered(const std::string logo);
-    void clearscreen();
-    char inputTitle();
     public:
-
+void clearScreen();
     const std::string logo= R"(
-==============================================================
-   ____  _            _      ____             _
-  | __ )| | ___   ___| | __ | __ ) _   _ ___| |_
-  |  _ \| |/ _ \ / __| |/ / |  _ \| | | / __| __|
-  | |_) | | (_) | (__|   <  | |_) | |_| \__ \ |_
-  |____/|_|\___/ \___|_|\_\ |____/ \__,_|___/\__|
+ ____  _     ___   ____ _  __
+| __ )| |   / _ \ / ___| |/ /
+|  _ \| |  | | | | |   | ' / 
+| |_) | |__| |_| | |___| . \ 
+|____/|_____\___/ \____|_|\_\
 
-                    T E R M I N A L   E D I T I O N
-==============================================================
+ ____  _   _ ____ _____
+| __ )| | | / ___|_   _|
+|  _ \| | | \___ \ | |
+| |_) | |_| |___) || |
+|____/ \___/|____/ |_|
+ 
 
-                   Press ENTER to Start
-                     Press ^C to Quit
+Press ENTER to Start
+ Press ^C to Quit
                      )";
+
+const std::string l= R"(+------------------------------+ )";
     void titleScreen();
     void board();
     void loss();
+    
+    
+
    
 };

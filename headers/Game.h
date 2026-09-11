@@ -12,5 +12,8 @@ class Game
     Piece piece;
     void choiceLoader();
     void roundControl();    
-    void input(char c);
+    void inputPiece(char c);
+    void inputPos(char c);
+    void gameOn();
+    
 };
