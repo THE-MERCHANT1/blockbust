@@ -4,6 +4,7 @@
 
 class Game
 {  public:
+    Game();
     std::array<shape,3> choices;
     bool game0ver=false;
     int score;

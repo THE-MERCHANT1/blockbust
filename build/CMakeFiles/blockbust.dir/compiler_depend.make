@@ -4116,6 +4116,9 @@ CMakeFiles/blockbust.dir/src/main.cpp.o: /Users/mac/Documents/Projects/blockbust
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Board.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Game.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Piece.h \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/Renderer.h \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/common.h
 

@@ -1,6 +1,10 @@
 #include"common.h"
 #include"Game.h"
 
+Game::Game()
+{   
+    score=0;
+}
 void Game::choiceLoader()
 {   
     std::unordered_map<std::string,int>check;

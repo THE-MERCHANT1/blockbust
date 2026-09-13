@@ -11,8 +11,8 @@ int clearFullLines();
 bool hasPlace( shape s) ;
 int get(int row,int col)const;
 
+std::array<std::array<int,8>,8> grid;
 
-private:
-    std::array<std::array<int,8>,8> grid;
+
 };
 

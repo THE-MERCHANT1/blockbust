@@ -813,6 +813,7 @@ CMakeFiles/blockbust.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/Renderer.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Game.h \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ncurses.h \
@@ -820,4 +821,6 @@ CMakeFiles/blockbust.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unctrl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curses.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curses.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Piece.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Board.h

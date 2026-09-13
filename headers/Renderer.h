@@ -23,10 +23,11 @@ Press ENTER to Start
  Press ^C to Quit
                      )";
 
-const std::string l= R"(+------------------------------+ )";
-    void titleScreen();
-    void board();
+const std::string line= R"(+---------------------------------+)";
+    char titleScreen();
+    void board(std::array<array<int,8>,8> grid,int score);
     void loss();
+    void terSize();
     
     
 
