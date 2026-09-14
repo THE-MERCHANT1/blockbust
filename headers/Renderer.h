@@ -25,7 +25,7 @@ Press ENTER to Start
 
 const std::string line= R"(+---------------------------------+)";
     char titleScreen();
-    void board(std::array<array<int,8>,8> grid,int score);
+    void board(std::array<std::array<int,8>,8> grid,int score);
     void loss();
     void terSize();
     

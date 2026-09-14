@@ -7,6 +7,11 @@ shape::shape(std::string name, std::vector<std::vector<int>> sh)
     this->name=name;
     this->sh=sh;
 };
+shape::shape()
+{
+    name = "";
+    sh = {};
+}
 
 shape Piece::randomPiece()
 {

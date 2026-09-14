@@ -822,5 +822,5 @@ CMakeFiles/blockbust.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unctrl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curses.h \
-  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Piece.h \
-  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Board.h
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Board.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Piece.h

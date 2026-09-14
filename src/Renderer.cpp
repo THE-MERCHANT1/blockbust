@@ -59,21 +59,22 @@ void terSize()
 void Renderer::board(std::array<array<int,8>,8> grid,int score)
 {   clearScreen();
     int startCol = (60 - line.size()) / 2;
+
     mvprintw(4,30,"%s",score);
-    mvprintw(6,12,"%s",line);
+    mvprintw(6,12,"%s",line.c_str());
     for(auto i:grid)
     {   printw("|");
         for(auto j:i)
         {   
             if(j==1){printw("[#]");}
-            else{printw("[ ]")}
-            refresh();
+            else{printw("[ ]");}
+            
         }
         printw("|");
-        print("\n");
+        printw("\n");
         refresh();
     }
     
-    refresh();
+    
 
 }

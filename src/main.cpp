@@ -3,7 +3,6 @@
 #include"Renderer.h"
 #include"Game.h"
 #include"Piece.h"
-#include"Board.h"
 #include<common.h>
 
 using namespace std;
