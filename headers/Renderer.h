@@ -1,4 +1,4 @@
-
+#include"Piece.h"
 class Renderer
 {   
     private:
@@ -23,9 +23,9 @@ Press ENTER to Start
  Press ^C to Quit
                      )";
 
-const std::string line= R"(+---------------------------------+)";
+const std::string line= R"(+-----------------------------+)";
     char titleScreen();
-    void board(std::array<std::array<int,8>,8> grid,int score);
+    void board(std::array<std::array<int,8>,8> grid,shape p,int score);
     void loss();
     void terSize();
     

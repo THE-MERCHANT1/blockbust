@@ -3293,6 +3293,7 @@ CMakeFiles/blockbust.dir/src/Renderer.cpp.o: /Users/mac/Documents/Projects/block
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Piece.h \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/Renderer.h \
   /Users/mac/Documents/Projects/blockbust/blockbust/headers/common.h
 

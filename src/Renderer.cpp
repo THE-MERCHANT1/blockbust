@@ -56,24 +56,47 @@ void terSize()
 }
 
 
-void Renderer::board(std::array<array<int,8>,8> grid,int score)
+void Renderer::board(std::array<array<int,8>,8> grid,shape p,int score)
 {   clearScreen();
-    int startCol = (60 - line.size()) / 2;
+    clearScreen();
+int startCol=(60-line.size())/2;
 
-    mvprintw(4,30,"%s",score);
-    mvprintw(6,12,"%s",line.c_str());
+    mvprintw(4,28,"%d",score);
+    mvprintw(6,startCol,"%s",line.c_str());
+    printw("\n");
+     int rt=7;
     for(auto i:grid)
-    {   printw("|");
+    {   mvprintw(rt,14,"%s","|");
+        
+         
+        int ct=16;
         for(auto j:i)
-        {   
-            if(j==1){printw("[#]");}
-            else{printw("[ ]");}
+        {  
             
+            if(j==1){mvprintw(rt,ct,"%s","[#]");}
+            else{mvprintw(rt,ct,"%s","[#]");}
+            ct+=4;          
         }
-        printw("|");
+         mvprintw(rt,44,"%s","|");
+         ++rt;
+        
         printw("\n");
-        refresh();
+     
     }
+    printw("\n");
+    mvprintw(6+9,startCol,"%s",line.c_str());
+    rt=16;
+    for(auto i:p.sh)
+    {   int ct=15;
+        for(auto j:i)
+        {
+            if(i==1){mvprintw(rt,ct,"%s","#");}
+            ++ct;
+        }
+        ++rt;
+
+    }
+      refresh();
     
     
 

@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
- initscr();            
+initscr();            
 noecho();
 cbreak();
 keypad(stdscr, TRUE);
@@ -20,6 +20,6 @@ Game game;
 Piece piece;
 Board board;
 
-render.board(board.grid,500);
+render.board(board.grid,piece.randomPiece(),500);
 
 }

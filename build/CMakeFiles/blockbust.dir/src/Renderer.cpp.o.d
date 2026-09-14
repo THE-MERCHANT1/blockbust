@@ -820,4 +820,5 @@ CMakeFiles/blockbust.dir/src/Renderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unctrl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/curses.h \
-  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Renderer.h
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Renderer.h \
+  /Users/mac/Documents/Projects/blockbust/blockbust/headers/Piece.h
