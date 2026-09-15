@@ -85,15 +85,15 @@ int startCol=(60-line.size())/2;
     }
     printw("\n");
     mvprintw(6+9,startCol,"%s",line.c_str());
-    rt=16;
+    rt=18;
     for(auto i:p.sh)
     {   int ct=15;
         for(auto j:i)
         {
-            if(i==1){mvprintw(rt,ct,"%s","#");}
-            ++ct;
+            if(j==1){mvprintw(rt,ct,"%s","#");}
+            ct+=2;
         }
-        ++rt;
+        rt+=1;
 
     }
       refresh();
