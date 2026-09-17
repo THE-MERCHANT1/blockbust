@@ -7,3 +7,4 @@
 #include<ctime>
 #include<unordered_map>
 #include<ncurses.h>
+#include<optional>

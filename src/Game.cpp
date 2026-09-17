@@ -5,11 +5,12 @@ Game::Game()
 {   
     score=0;
 }
-void Game::choiceLoader()
-{   
+std::optional<std::array<shape, 3>> choiceLoader()
+{   std::array<shape,3> choices;
     std::unordered_map<std::string,int>check;
     for(int i=0;i<3;i++){
     bool x=true;
+    
     while(x)
     {
         shape tmp=Piece::randomPiece();
@@ -17,10 +18,12 @@ void Game::choiceLoader()
         if(check[tmp.name]>1){continue;}//checks if piece occurred more than once
         if(board.hasPlace(tmp)){x=0;choices[i]=tmp;}
         else{check[tmp.name]++;}
-
     }
+
     if (game0ver){break;}
 }
+if(game0ver)
+return choices;
 }
 
 void Game::roundControl()
